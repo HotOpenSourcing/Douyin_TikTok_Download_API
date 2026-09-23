@@ -20,8 +20,6 @@ htmlcov/
 
 # Local config & secrets
 # Cookies and tokens are per-deployment; never commit them.
-.env
-.env.*
 !.env.example
 *.local.yaml
 *.local.yml
@@ -33,7 +31,6 @@ downloads/
 
 # Editors / OS
 .idea/
-.vscode/
 .DS_Store
 
 # 本地 AI 协作产物：留在工作区，不入库
@@ -61,3 +58,4 @@ dist/
 # nothing and would be wrong for every architecture but the one that made it.
 /docker/downloader/downloader
 /Depoly_SSH/
+config.bat
